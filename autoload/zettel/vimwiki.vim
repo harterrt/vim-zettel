@@ -427,8 +427,8 @@ function! zettel#vimwiki#get_title(filename)
   let lsource = readfile(filename)
   " this code comes from vimwiki's html export plugin
   for line in lsource 
-    if line =~# '^\s*%\=title'
-      let title = matchstr(line, '^\s*%\=title:\=\s\zs.*')
+    if line =~# '^# .*'
+      let title = line[2:]
       return title
     endif
   endfor 
