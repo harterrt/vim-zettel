@@ -1,3 +1,13 @@
+# README
+
+This repo is cloned from https://github.com/michal-h21/vim-zettel.
+
+It's not working quite the way I want so 
+I'm going to pare back the functionality
+until I fully understand the code,
+then go from there.
+
+
 # The `vim-zettel` package
 
 This is a Vim plugin that implements ideas of the
