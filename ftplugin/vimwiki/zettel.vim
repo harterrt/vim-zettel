@@ -10,3 +10,4 @@ command! -bang -nargs=* ZettelNew call zettel#vimwiki#zettel_new(<q-args>)
 
 
 imap <c-l> <esc>:ZettelSearch<cr>
+nmap <leader>zo :ZettelOpen<cr>
